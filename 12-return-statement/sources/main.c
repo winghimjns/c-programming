@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void sayHi()
-{
-	printf("Hello User\n");
+double cube(double num) {
+	double result = num * num * num;
+	return result;
 }
 
 int main()
 {
-	sayHi();
+	printf("Answer: %f\n", cube(2.2));
 	return 0;
 }
