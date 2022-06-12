@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void sayHi(char name[])
+void sayHi()
 {
-	printf("Hello %s\n", name);
+	printf("Hello User\n");
 }
 
 int main()
 {
-	sayHi("Mike");
+	sayHi();
 	return 0;
 }
